@@ -1,0 +1,67 @@
+h1{
+    color: powderblue;
+    font-size: 42px;
+    text-decoration:underline;
+    font-size:bold;
+}
+body{
+    background-color: black;
+}
+h1{
+    color: powderblue;
+    font-size: 42px;
+    text-decoration:underline;
+    font-weight:bold;
+    font-style:italic;
+}
+
+p{
+    color: sandybrown;
+    font-size: 24px;
+    text-decoration:underline;
+    font-weight:bold;
+    font-family:"Cedarville Cursive"; 
+}
+
+
+
+/* colour: text color
+background colour: colour of the website
+font-size: text size
+text-decoration:Underline
+font-style:Italic
+font-weight: Bold
+font-family: monospace/serif/sans/sans-serif.
+Serif is the default font.
+*/
+
+
+body{
+    background-color: black;
+}
+
+
+h1{
+    color:skyblue;
+    font-size: 70px;
+    text-decoration:Underline;
+    font-style:Italic;
+    font-weight: Bold;
+    text-align:center;
+    border:2px solid white;
+
+}
+b{
+    background-color: rgb(104, 18, 18);
+    border:2px solid white;
+    border-radius: 10%;
+    cursor: ;
+
+}
+
+p{
+    color:orange;
+    font-size: 50px;
+    font-family: "Cedarville Cursive";
+
+}

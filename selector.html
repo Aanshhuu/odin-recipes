@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <title>css selector</title>
+    <style>
+        /* universal selector */
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        h1{
+        color: red;
+    }
+    .title{
+        background-color: rgb(52, 210, 55);
+    }
+    .test{
+        color: rgb(187, 26, 26);
+        text-align: center;
+    }
+    #demo
+    {
+        color: white;
+        background-color: darkkhaki;
+        font-size: 50px;
+    }
+    .content{
+        color:orangered !important;
+        background-color: yellowgreen;
+    }
+    /* grouping selector */
+    h1,.title,#test{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+ #test{
+color: aliceblue;
+background-color: teal;
+    }
+    </style>
+</head>
+<body>
+    <h1>This is Element Selector</h1>
+    <h1>Dursikshya Education Network</h1>
+    <h2 class="title test">This is demo Title, this is class selector</h2>
+    <h2 class="test">This is second line</h2>
+    <h2 id="demo"> This is ID selector</h2>
+    <h2 class="content" id="test">We are learning CSS</h2>
+</body>
+</html>
